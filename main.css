@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}    
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#id1{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px; 
+    cursor: pointer;
+    float: left; 
+    top:0;
+    left: 0;
+    margin-left:15px;
+    margin-top: 5px;
+}
+h1{
+    height: 50px;
+    float: left;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-left: 10px; 
+    color: antiquewhite;
+    margin-top: 5px;
+}
+ul{
+    float: right;
+    height: 60px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+li{
+    display: inline-block;
+}
+ul li a ,.musi{
+    font-size: 20px;
+    padding: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+li a:link{
+    color: antiquewhite;
+}
+li a:hover,.dropdown:hover.musi{
+    color: antiquewhite;
+    font-size: large;   
+}
+li a:active{
+    color: black;
+}
+.content a{
+    display: block;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: gray;
+}
+.active{
+    color:crimson;
+}
+
+.section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.fm{
+    text-align: center;
+    font-size: 7vmin;
+    color: goldenrod;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left:  30px;
+    justify-content: space-between;
+}
+.row.col img{
+    width: 80%;
+    padding: 10px;
+}
+#ft{
+    text-align: center;
+    padding: 4px;
+    color: black;
+    background-color: coral;
+    margin-bottom: 0;
+    width: 100%;
+}
+.gallery{
+    border: 2px solid gray;
+    float: left;
+    margin: 50px;
+}
+div.gallery:hover{
+    border: 10px solid gray;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.ft{
+    clear: both;
+    background-color: gray;
+    color: antiquewhite;
+    height: 120px;
+    text-align: center;
+    padding-top: 15px;
+}
+.ft p{
+    font-size: 20px;
+}
