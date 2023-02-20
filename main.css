@@ -131,3 +131,10 @@ div.gallery:hover{
 .ft p{
     font-size: 20px;
 }
+@media screen and (max-width:768px)
+    {
+        ul{
+            display:block;
+        }
+}
+
