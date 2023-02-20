@@ -51,7 +51,7 @@ li a:link{
 }
 li a:hover,.dropdown:hover.musi{
     color: antiquewhite;
-    font-size: large;   
+    font-size:30px;   
 }
 li a:active{
     color: black;
@@ -128,10 +128,23 @@ div.gallery:hover{
 .ft p{
     font-size: 20px;
 }
-@media screen and (max-width:768px)
+@media screen and (max-width:600px)
     {
         ul{
-            display:block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background-color: white;
+            height: fit-content;   
+        }
+        ul li{
+            padding: 10px;
+        }
+        ul li a{
+            color: black;
+        }
+        #mus{
+            color: black;
         }
 }
-
